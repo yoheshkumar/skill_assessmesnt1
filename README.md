@@ -1,4 +1,6 @@
 ### SKILL_ASSESSMENT-1
+
+
 ## Tittle: 
 Minimization of Boolean Function using K-Map and Verilog Implementation
 
@@ -15,6 +17,7 @@ Boolean algebra is a mathematical system that uses only two values, 0 and 1, to 
 ## Block diagram:
 
 ## Truth table/Excitation table:
+![output](./TT1.png)
 
 ## Explanation: 
 The given Boolean function can be minimized using K-Map. The K-Map for the given function is as follows:
@@ -40,7 +43,9 @@ endmodule
 ```
 
 ## RTL diagram:
+![output](./RTL.png)
 
 ## Timing diagram:
+![output](./TD.png)
 
 ## Result: The minimized Boolean function is F(A,B,C) = A′B + BAC′ + A'B′C′. The logic diagram for the minimized function has been successfully simulated using Verilog.
